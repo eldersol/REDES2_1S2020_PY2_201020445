@@ -12,3 +12,32 @@ Existen diversos tipos de paquetes que son de vital utilidad basados en ICMP, en
 ![](Protocolo-ICMP/tabla.png)
 
 La importancia que tiene este protocolo es esencial un ejemplo seria la información que llega periódicamente a todos los host o dispositivos participantes de la red, otorgando muchos datos guardando en la cache y haciendo que los routers se conviertan en una puerta de acceso. De esta forma el router optimiza la ruta de los paquetes en la red.
+
+Crear topologia con conexion a una maquina virtual
+![](Protocolo-ICMP/1.png)
+
+Asignarle Vmnet8 para la maquina virtual
+![](Protocolo-ICMP/2.png)
+
+Iniciar capturación
+![](Protocolo-ICMP/3.png)
+
+Iniciar wireshark
+![](Protocolo-ICMP/4.png)
+
+![](Protocolo-ICMP/5.png)
+
+Asignarle ip a maquina virtual
+
+![](Protocolo-ICMP/6.png)
+
+
+Establecer comunicacion por medio de ping desde topología hacia maquina virtual
+
+![](Protocolo-ICMP/7.png)
+
+Paquetes capturados
+![](Protocolo-ICMP/8.png)
+
+Capturas ICMP
+![](Protocolo-ICMP/9.png)
